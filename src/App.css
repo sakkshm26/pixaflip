@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans');
+
+@font-face {
+  font-family: 'Kumbh Sans', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Kumbh+Sans');
+}
+
+body{
+  font-family: 'Kumbh Sans';
+  box-sizing: border-box;
+  margin: 0 12rem;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  --yellow: #f6d365;
+  --orange: #fda085;
+}
+
+/*Navbar*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.navbar img{
+  height: 50px;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links li{
+  list-style: none;
+  margin: 0 15px;
+  font-weight: 600;
+  color: #757575;
+}
+
+.nav-links button{
+  padding: 13px 30px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(94deg, var(--c1, #f6d365), var(--c2, #fda085) 51%, var(--c1, #f6d365) ) var(--x, 0) / 200% !important;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/*Main Container*/
+.main{
+  background: linear-gradient(to bottom right, #ffaa00, #f1726c);
+  border-radius: 10px;
+  margin: 4rem 0;
+}
+
+.main .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+}
+
+.container h1{
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  margin: 0 6rem;
+  text-align: center;
+}
+
+.container h3{
+  margin: 2rem 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.container .boxes{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container .box{
+  /* position: relative; */
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1rem;
+  padding: 2rem 2rem;
+  border-radius: 10px;
+  width: 180px;
+  height: 110px;
+}
+
+.container .box h2{
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.container .images{
+  margin-top: 2rem;
+}
+
+.container .box img{
+  height: 15px;
+  margin: 0 5px;
+}
