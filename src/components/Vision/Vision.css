@@ -1,0 +1,32 @@
+.vision{
+    color: white;
+    background: #326766;
+    /* background-blend-mode: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+.vision h2{
+    margin: 20px 0 0 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.vision p{
+    margin: 20px 0 40px 0;
+    font-size: 30px;
+    width: 500px;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+    .vision p{
+        width: 90%;
+    }
+}
