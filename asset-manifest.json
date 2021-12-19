@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/pixaflip/static/css/main.bcd52e7c.chunk.css",
+    "main.js": "/pixaflip/static/js/main.fac6016f.chunk.js",
+    "main.js.map": "/pixaflip/static/js/main.fac6016f.chunk.js.map",
+    "runtime-main.js": "/pixaflip/static/js/runtime-main.74379ceb.js",
+    "runtime-main.js.map": "/pixaflip/static/js/runtime-main.74379ceb.js.map",
+    "static/js/2.d0b8c15d.chunk.js": "/pixaflip/static/js/2.d0b8c15d.chunk.js",
+    "static/js/2.d0b8c15d.chunk.js.map": "/pixaflip/static/js/2.d0b8c15d.chunk.js.map",
+    "static/js/3.79086aa5.chunk.js": "/pixaflip/static/js/3.79086aa5.chunk.js",
+    "static/js/3.79086aa5.chunk.js.map": "/pixaflip/static/js/3.79086aa5.chunk.js.map",
+    "index.html": "/pixaflip/index.html",
+    "static/css/main.bcd52e7c.chunk.css.map": "/pixaflip/static/css/main.bcd52e7c.chunk.css.map",
+    "static/js/2.d0b8c15d.chunk.js.LICENSE.txt": "/pixaflip/static/js/2.d0b8c15d.chunk.js.LICENSE.txt",
+    "static/media/Mission.b813ec5b.jpg": "/pixaflip/static/media/Mission.b813ec5b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.74379ceb.js",
+    "static/js/2.d0b8c15d.chunk.js",
+    "static/css/main.bcd52e7c.chunk.css",
+    "static/js/main.fac6016f.chunk.js"
+  ]
+}
